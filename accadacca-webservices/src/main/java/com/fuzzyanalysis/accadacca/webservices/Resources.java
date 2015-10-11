@@ -16,6 +16,17 @@ public class Resources {
 		return "<html><body>The web services work.</body></html>";
 	}
 	
+	@Path("/car/details/json/{make}{model}{year}")
+	@GET()
+	@Produces("application/json")
+	public String getCarDetails(@PathParam("make") final String make,
+			@PathParam("model") final String model, 
+			@PathParam("year") final String year) {
+		
+		return null;
+		
+	}
+	
 	@Path("/geolocation/{ip}")
 	@GET()
 	@Produces("application/json")
