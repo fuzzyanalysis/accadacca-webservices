@@ -15,9 +15,6 @@ import java.util.TreeMap;
 
 import com.fuzzyanaylsis.accadacca.utils.PropertiesManager;
 
-//import com.fuzzyanalysis.accadacca.utils.PropertiesManager;
-//import com.fuzzyanalysis.accadacca.view.CarBean;
-
 public class DBManager {
 
 	public final String CAR_MAKES_QUERY_ALL = "SELECT MAKE FROM CARS"; //
