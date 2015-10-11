@@ -14,7 +14,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 import com.fuzzyanaylsis.accadacca.utils.PropertiesManager;
-
+ 
 public class DBManager {
 
 	public final String CAR_MAKES_QUERY_ALL = "SELECT MAKE FROM CARS"; //
